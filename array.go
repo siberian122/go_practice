@@ -23,7 +23,7 @@ func main() {
 
 	//2重配列
 	var e [3][2]int
-	fmt.Printf("%v ,%T", e, e)
+	fmt.Printf("%v ,%T\n", e, e)
 	e[1][0] = 2
 	e[1][1] = 3
 	fmt.Println(e)
@@ -35,7 +35,7 @@ func main() {
 	x2 := [2]int{1, 2}
 	fmt.Println("x1 == x2", x1 == x2)
 	x2[0] = 3
-	fmt.Println("x1 ==x2", x1 == x2)
+	fmt.Println("x1 == x2", x1 == x2)
 
 	hoge([2]int{1, 2})
 
