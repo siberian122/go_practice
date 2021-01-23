@@ -17,7 +17,10 @@ func main() {
 	d := make([]int, 5)
 	//makeでスライスの長さを指定して定義可能
 	fmt.Println(d)
-
+	dd := make([]int, 3, 5)
+	//第一引数：長さlen
+	//第二引数：大きさcap
+	
 	fmt.Println(append(d, 6))
 
 	fmt.Println(d)

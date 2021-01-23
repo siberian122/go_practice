@@ -20,6 +20,8 @@ func main() {
 
 	var num string = "11"
 	i, err := strconv.Atoi(num)
-	fmt.Println(i)
+	if err != nil {
+		fmt.Println(i)
+	}
 
 }
